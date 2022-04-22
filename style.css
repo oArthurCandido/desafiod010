@@ -1,0 +1,146 @@
+/* Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'android';
+  src: url(fontes/idroid.otf);
+}
+body{
+  width: 100%;
+  background-color: #84e0ad;
+}
+
+header {
+  width: 100%;
+  height: 15em;
+  background-image: linear-gradient(to bottom,#6ed79d, #1b4f32);
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.36);
+}
+
+header h1 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.483);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  padding: 1em 0em 0.5em 0em;
+}
+
+header h2 {
+  font-size: 1.4em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 200;
+  text-shadow: 2px 3px 3px black;
+  margin-bottom: 2em;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1em;
+  
+}
+
+nav {
+  text-align: left;
+  margin: auto;
+  max-width: 1200px;
+}
+
+
+strong{
+  color: #1b4f32;
+}
+
+main {
+  background-color: white ;
+  margin: auto;
+  max-width: 920px;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.204);
+  padding: 2em;
+  font-family: tahoma, sans-serif;
+  border-radius: 0px 0px 10px 10px;
+}
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1b4f32;
+}
+
+.title {
+  font-family: 'android' , sans-serif;
+  color: #23603f;
+}
+
+p {
+  padding: 1em 0;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+img {
+  width: 100%;
+}
+
+.bugdroid {
+  max-width: 500px;
+  
+
+}
+
+main h2{
+  background-image: linear-gradient(to right, #c4ecd5, #fcfefd);
+  padding-left: 0.4em;
+}
+
+iframe {
+  width: 100%;
+}
+
+#extra {
+  margin-top: 2em;
+  background-color: #c5ebd6 ;
+  border-radius: 10px;
+}
+
+#extra h1 {
+  background-color:#2fa865 ;
+  height: 2em;
+  padding: 0.5em;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+
+#extra p {
+  padding: 1em 0.5em;
+}
+
+ul {
+  margin-left: 2em;
+}
+
+footer {
+  background-color: #1b4f32;
+  color: white;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: 200;
+}
+
+footer p {
+  padding: 0;
+}
+
+footer strong {
+  color: white;
+}
