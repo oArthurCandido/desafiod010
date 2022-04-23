@@ -17,7 +17,7 @@ body{
 
 header {
   width: 100%;
-  height: 15em;
+  height: 11em;
   background-image: linear-gradient(to bottom,#6ed79d, #1b4f32);
   color: white;
   text-align: center;
@@ -29,12 +29,12 @@ header h1 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.483);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 2em;
   padding: 1em 0em 0.5em 0em;
 }
 
 header h2 {
-  font-size: 1.4em;
+  font-size: 1em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 200;
   text-shadow: 2px 3px 3px black;
@@ -45,8 +45,8 @@ header a {
   color: white;
   font-weight: bold;
   text-decoration: none;
-  padding: 1em;
-  
+  padding: 0.5em;
+  font-size: 0.8em;
 }
 
 nav {
@@ -143,4 +143,14 @@ footer p {
 
 footer strong {
   color: white;
+}
+
+@media (min-width: 900px) {
+
+  header {
+    height: auto;
+  }
+  header h1{
+    font-size: 3em;
+  }
 }
